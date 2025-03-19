@@ -17,7 +17,7 @@ def bmi_calculator(feet, inch, pound):
     else:
         category = "Obese"
 
-    return round(bmi, 2) , category
+    return round(bmi, 1) , category
 
 def main():
     print("BMI CALCULATOR")
